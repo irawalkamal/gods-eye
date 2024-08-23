@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+
+    <listeners>
+        <listener class-name="com.automation.core.TestListener"/>
+    </listeners>
+    <test name="SampleTest">
+        <classes>
+            <class name="com.automation.sample.ui.SampleUITest"/>
+        </classes>
+    </test>
+</suite>
